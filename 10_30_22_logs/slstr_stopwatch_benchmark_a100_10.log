@@ -1,0 +1,56 @@
+
++---------------------------------+-------------------------------------------------------------------------------+
+| Attribute                       | Value                                                                         |
+|---------------------------------+-------------------------------------------------------------------------------|
+| ANSI_COLOR                      | "0;31"                                                                        |
+| BUG_REPORT_URL                  | "https://bugs.centos.org/"                                                    |
+| CENTOS_MANTISBT_PROJECT         | "CentOS-7"                                                                    |
+| CENTOS_MANTISBT_PROJECT_VERSION | "7"                                                                           |
+| CPE_NAME                        | "cpe:/o:centos:centos:7"                                                      |
+| HOME_URL                        | "https://www.centos.org/"                                                     |
+| ID                              | "centos"                                                                      |
+| ID_LIKE                         | "rhel fedora"                                                                 |
+| NAME                            | "CentOS Linux"                                                                |
+| PRETTY_NAME                     | "CentOS Linux 7 (Core)"                                                       |
+| REDHAT_SUPPORT_PRODUCT          | "centos"                                                                      |
+| REDHAT_SUPPORT_PRODUCT_VERSION  | "7"                                                                           |
+| VERSION                         | "7 (Core)"                                                                    |
+| VERSION_ID                      | "7"                                                                           |
+| cpu                             | AMD EPYC 7742 64-Core Processor                                               |
+| cpu_cores                       | 128                                                                           |
+| cpu_count                       | 128                                                                           |
+| cpu_threads                     | 128                                                                           |
+| date                            | 2022-10-30 23:44:14.603255                                                    |
+| frequency                       | scpufreq(current=2250.0, min=1500.0, max=2250.0)                              |
+| mem.active                      | 342.5 GiB                                                                     |
+| mem.available                   | 659.9 GiB                                                                     |
+| mem.free                        | 72.4 GiB                                                                      |
+| mem.inactive                    | 549.4 GiB                                                                     |
+| mem.percent                     | 34.5 %                                                                        |
+| mem.total                       | 1007.8 GiB                                                                    |
+| mem.used                        | 49.0 GiB                                                                      |
+| platform.version                | #1 SMP Wed Feb 23 16:47:03 UTC 2022                                           |
+| python                          | 3.10.5 | packaged by conda-forge | (main, Jun 14 2022, 07:06:46) [GCC 10.3.0] |
+| python.pip                      | 22.3                                                                          |
+| python.version                  | 3.10.5                                                                        |
+| sys.platform                    | linux                                                                         |
+| uname.machine                   | x86_64                                                                        |
+| uname.node                      | udc-an28-7                                                                    |
+| uname.processor                 | x86_64                                                                        |
+| uname.release                   | 3.10.0-1160.59.1.el7.x86_64                                                   |
+| uname.system                    | Linux                                                                         |
+| uname.version                   | #1 SMP Wed Feb 23 16:47:03 UTC 2022                                           |
+| user                            | dub5nq                                                                        |
++---------------------------------+-------------------------------------------------------------------------------+
+
++-----------+----------+----------+----------+---------------------+---------+-------+------------+--------+-------+-------------------------------------+
+| Name      | Status   |     Time |      Sum | Start               | tag     | msg   | Node       | User   | OS    | Version                             |
+|-----------+----------+----------+----------+---------------------+---------+-------+------------+--------+-------+-------------------------------------|
+| total     | ok       | 2050.26  | 2050.26  | 2022-10-30 23:10:04 | a100_10 |       | udc-an28-7 | dub5nq | Linux | #1 SMP Wed Feb 23 16:47:03 UTC 2022 |
+| training  | ok       | 1907.66  | 1907.66  | 2022-10-30 23:10:04 | a100_10 |       | udc-an28-7 | dub5nq | Linux | #1 SMP Wed Feb 23 16:47:03 UTC 2022 |
+| inference | ok       |  142.241 |  142.241 | 2022-10-30 23:41:52 | a100_10 |       | udc-an28-7 | dub5nq | Linux | #1 SMP Wed Feb 23 16:47:03 UTC 2022 |
++-----------+----------+----------+----------+---------------------+---------+-------+------------+--------+-------+-------------------------------------+
+# csv,timer,status,time,sum,start,tag,msg,uname.node,user,uname.system,platform.version
+# csv,total,ok,2050.259,2050.259,2022-10-30 23:10:04,a100_10,None,udc-an28-7,dub5nq,Linux,#1 SMP Wed Feb 23 16:47:03 UTC 2022
+# csv,training,ok,1907.664,1907.664,2022-10-30 23:10:04,a100_10,None,udc-an28-7,dub5nq,Linux,#1 SMP Wed Feb 23 16:47:03 UTC 2022
+# csv,inference,ok,142.241,142.241,2022-10-30 23:41:52,a100_10,None,udc-an28-7,dub5nq,Linux,#1 SMP Wed Feb 23 16:47:03 UTC 2022

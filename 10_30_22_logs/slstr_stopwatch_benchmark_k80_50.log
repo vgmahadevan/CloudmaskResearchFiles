@@ -1,0 +1,56 @@
+
++---------------------------------+-------------------------------------------------------------------------------+
+| Attribute                       | Value                                                                         |
+|---------------------------------+-------------------------------------------------------------------------------|
+| ANSI_COLOR                      | "0;31"                                                                        |
+| BUG_REPORT_URL                  | "https://bugs.centos.org/"                                                    |
+| CENTOS_MANTISBT_PROJECT         | "CentOS-7"                                                                    |
+| CENTOS_MANTISBT_PROJECT_VERSION | "7"                                                                           |
+| CPE_NAME                        | "cpe:/o:centos:centos:7"                                                      |
+| HOME_URL                        | "https://www.centos.org/"                                                     |
+| ID                              | "centos"                                                                      |
+| ID_LIKE                         | "rhel fedora"                                                                 |
+| NAME                            | "CentOS Linux"                                                                |
+| PRETTY_NAME                     | "CentOS Linux 7 (Core)"                                                       |
+| REDHAT_SUPPORT_PRODUCT          | "centos"                                                                      |
+| REDHAT_SUPPORT_PRODUCT_VERSION  | "7"                                                                           |
+| VERSION                         | "7 (Core)"                                                                    |
+| VERSION_ID                      | "7"                                                                           |
+| cpu                             | Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz                                     |
+| cpu_cores                       | 28                                                                            |
+| cpu_count                       | 28                                                                            |
+| cpu_threads                     | 28                                                                            |
+| date                            | 2022-11-01 07:28:11.567613                                                    |
+| frequency                       | scpufreq(current=2399.964999999999, min=0.0, max=0.0)                         |
+| mem.active                      | 57.9 GiB                                                                      |
+| mem.available                   | 193.9 GiB                                                                     |
+| mem.free                        | 66.2 GiB                                                                      |
+| mem.inactive                    | 106.8 GiB                                                                     |
+| mem.percent                     | 23.0 %                                                                        |
+| mem.total                       | 251.8 GiB                                                                     |
+| mem.used                        | 52.5 GiB                                                                      |
+| platform.version                | #1 SMP Wed Feb 23 16:47:03 UTC 2022                                           |
+| python                          | 3.10.5 | packaged by conda-forge | (main, Jun 14 2022, 07:06:46) [GCC 10.3.0] |
+| python.pip                      | 22.3                                                                          |
+| python.version                  | 3.10.5                                                                        |
+| sys.platform                    | linux                                                                         |
+| uname.machine                   | x86_64                                                                        |
+| uname.node                      | udc-ba26-24                                                                   |
+| uname.processor                 | x86_64                                                                        |
+| uname.release                   | 3.10.0-1160.59.1.el7.x86_64                                                   |
+| uname.system                    | Linux                                                                         |
+| uname.version                   | #1 SMP Wed Feb 23 16:47:03 UTC 2022                                           |
+| user                            | dub5nq                                                                        |
++---------------------------------+-------------------------------------------------------------------------------+
+
++-----------+----------+-----------+-----------+---------------------+--------+-------+-------------+--------+-------+-------------------------------------+
+| Name      | Status   |      Time |       Sum | Start               | tag    | msg   | Node        | User   | OS    | Version                             |
+|-----------+----------+-----------+-----------+---------------------+--------+-------+-------------+--------+-------+-------------------------------------|
+| total     | ok       | 15789.7   | 15789.7   | 2022-11-01 03:05:01 | k80_50 |       | udc-ba26-24 | dub5nq | Linux | #1 SMP Wed Feb 23 16:47:03 UTC 2022 |
+| training  | ok       | 15665.7   | 15665.7   | 2022-11-01 03:05:02 | k80_50 |       | udc-ba26-24 | dub5nq | Linux | #1 SMP Wed Feb 23 16:47:03 UTC 2022 |
+| inference | ok       |   123.401 |   123.401 | 2022-11-01 07:26:08 | k80_50 |       | udc-ba26-24 | dub5nq | Linux | #1 SMP Wed Feb 23 16:47:03 UTC 2022 |
++-----------+----------+-----------+-----------+---------------------+--------+-------+-------------+--------+-------+-------------------------------------+
+# csv,timer,status,time,sum,start,tag,msg,uname.node,user,uname.system,platform.version
+# csv,total,ok,15789.662,15789.662,2022-11-01 03:05:01,k80_50,None,udc-ba26-24,dub5nq,Linux,#1 SMP Wed Feb 23 16:47:03 UTC 2022
+# csv,training,ok,15665.654,15665.654,2022-11-01 03:05:02,k80_50,None,udc-ba26-24,dub5nq,Linux,#1 SMP Wed Feb 23 16:47:03 UTC 2022
+# csv,inference,ok,123.401,123.401,2022-11-01 07:26:08,k80_50,None,udc-ba26-24,dub5nq,Linux,#1 SMP Wed Feb 23 16:47:03 UTC 2022
