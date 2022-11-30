@@ -4,6 +4,8 @@ This repository will contain outputs of cloudmask runs and other associated file
 
 **graphMaker.py** - scans output logs for training and validation loss and accuracy; creates a directory called 'graphs' to store png files graphing loss and accuracy against epochs.
 
+**auto_collect.sh** - bash script to download the logs locally from rivanna and then run graphMaker.py
+
 **10_30_22** - This was an initial run of cloudmask. Cloudmask was run on all gpus and with the default hyperparameter configuration.
 
 **11_20_22** - There were three runs done on this date, all on the a100 gpu only. 
@@ -17,4 +19,16 @@ For the log and graphs directory labeled lr_.008, a learning rate of 0.008 was u
 **11_27_22** - The run labeled '1' is a run with a learning rate of 0.0008. 
 
 The run labeled '2' is a run with a learning rate of 0.008. There wasn't really a noticable difference between these two runs or the previous lr = 0.008 run.
+
+**11_28_22** - The run labeled '1' is a run with a learning rate of 0.0015. Again, this was a bit volatile but performed well. 
+
+The run labeled '2' had a learning rate of 0.001 but a dropout layer was added after the bottleneck portion of the model.
+
+The run labeled '3' had a learning rate of 0.002 with a dropout layer.
+
+The run labeled '4' had a learning rate of 0.0002 with a dropout layer. Performed slightly less well.
+
+The run labeled '5' had a learning rate of 0.002 with a dropout layer and a batch size of 64.
+
+**11_29_22** - The run labeled '1' is a run with a learning rate of 0.001 with a dropout layer and a batch size of 16.
 
